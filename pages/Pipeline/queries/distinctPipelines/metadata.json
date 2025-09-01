@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68b518c888f5402ec77931d3_cad9ae86-916f-4577-8252-ec7f87b26d41",
-  "id": "Pipeline_fetchPipelines",
+  "gitSyncId": "68b518c888f5402ec77931d3_508c148c-a626-4d8f-853c-79348a846536",
+  "id": "Pipeline_distinctPipelines",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -15,7 +15,7 @@
         },
         "pagination": {
           "data": {
-            "limit": "1000",
+            "limit": "20",
             "offset": "0"
           }
         },
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "pipeline"
+          "data": "dim_pipeline"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1LWkt6YzV0YGpdKK3j_EyVklt5ViyTFpHJvM2StJ4LrU/edit"
@@ -37,24 +37,11 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "children": [
-              {
-                "condition": "LT"
-              }
-            ],
             "condition": "AND"
           }
         }
@@ -70,7 +57,7 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "fetchPipelines",
+    "name": "distinctPipelines",
     "pageId": "Pipeline",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
