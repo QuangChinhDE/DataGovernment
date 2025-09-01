@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "log-out",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qz86xl8q5z",
+  "leftColumn": 61,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "fr6f49r03o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "wegf45ku0r",
+  "widgetName": "btn_SignOut"
+}

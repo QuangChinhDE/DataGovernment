@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "#231f20",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "lock",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "puovxdq23e",
+  "leftColumn": 4,
+  "minWidth": 50,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.05224609375,
+  "parentId": "47lpc8pzr1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 15,
+  "topRow": 5,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kh14pighu0",
+  "widgetName": "icn_login"
+}

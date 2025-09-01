@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "database",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qz86xl8q5z",
+  "leftColumn": 0,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 2,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{resetWidget(\"btn_refresh\", true);}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "fr6f49r03o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 3,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ujxom9k062",
+  "widgetName": "btn_refresh"
+}

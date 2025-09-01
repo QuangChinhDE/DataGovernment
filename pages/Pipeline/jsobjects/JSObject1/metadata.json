@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68b518c888f5402ec77931d3_d1610652-9b0d-42d1-a228-398a3f118125",
+  "id": "Pipeline_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Pipeline",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
