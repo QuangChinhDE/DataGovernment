@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowScroll": false,
+  "animateLoading": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 81,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "chartData": {
+    "erc7bfhvs9": {
+      "data": "{{ PipelineDashboard.runsByDate() }}",
+      "seriesName": "Pipeline"
+    }
+  },
+  "chartName": "Excution Duration",
+  "chartType": "CUSTOM_ECHART",
+  "customEChartConfig": "{{ ((chartType) => (  PipelineDashboard.getConcurrencyByTimeOfDayECharts() ))(chart_getByTimeOfDay.chartType) }}",
+  "customFusionChartConfig": "{{ PipelineDashboard.getStatusTrendECharts() }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "chartData.erc7bfhvs9.data"
+    },
+    {
+      "key": "customFusionChartConfig"
+    },
+    {
+      "key": "customEChartConfig"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "i0hon25eio",
+  "labelOrientation": "auto",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 1,
+  "needsErrorInfo": true,
+  "originalBottomRow": 45,
+  "originalTopRow": 16,
+  "parentColumnSpace": 16.7138671875,
+  "parentId": "pmpzivgo7k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "setAdaptiveYMin": false,
+  "showDataPointLabel": false,
+  "topRow": 43,
+  "type": "CHART_WIDGET",
+  "version": 1,
+  "widgetId": "nxmtommsl1",
+  "widgetName": "chart_getByTimeOfDay",
+  "xAxisName": "Product Line",
+  "yAxisName": "Revenue($)"
+}

@@ -37,11 +37,24 @@
         "smartSubstitution": {
           "data": true
         },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
+        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
+            "children": [
+              {
+                "condition": "LT"
+              }
+            ],
             "condition": "AND"
           }
         }
