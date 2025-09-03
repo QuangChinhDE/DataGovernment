@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68b518c888f5402ec77931d3_cb0f57ab-6833-46e8-a138-f3247ce3afc0",
+  "id": "Report_ReportDashboard",
+  "unpublishedCollection": {
+    "name": "ReportDashboard",
+    "pageId": "Report",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

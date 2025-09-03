@@ -7,14 +7,14 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "transparent",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 93,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "backgroundColor": "#ffffff",
+  "borderRadius": "0.375rem",
+  "bottomRow": 81,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 750,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -76,13 +76,17 @@
       "key": "accentColor"
     },
     {
-      "key": "borderRadius"
+      "key": "listData"
     },
     {
-      "key": "boxShadow"
+      "key": "totalRecordsCount"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enhancements": true,
   "flexVerticalAlignment": "start",
   "gridType": "vertical",
@@ -91,26 +95,10 @@
   "isLoading": false,
   "isVisible": true,
   "itemBackgroundColor": "#FFFFFF",
-  "itemSpacing": 8,
+  "itemSpacing": "5",
   "key": "tnbprd4vge",
-  "leftColumn": 9,
-  "listData": [
-    {
-      "id": "001",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Blue"
-    },
-    {
-      "id": "002",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Green"
-    },
-    {
-      "id": "003",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Red"
-    }
-  ],
+  "leftColumn": 0,
+  "listData": "{{ ReportDashboard.getFilteredReports() }}",
   "mainCanvasId": "d0bylsppni",
   "mainContainerId": "57ywv56x0z",
   "minWidth": 450,
@@ -119,9 +107,12 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "pageSize": 6,
+  "onPageChange": "",
+  "originalBottomRow": 92,
+  "originalTopRow": 17,
+  "pageSize": 8,
   "parentColumnSpace": 23.53125,
-  "parentId": "0",
+  "parentId": "87ft9gneo4",
   "parentRowSpace": 10,
   "primaryKeys": "{{list_dashboard.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
   "renderMode": "CANVAS",
@@ -129,10 +120,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "selectedItemView": "{{{}}}",
-  "serverSidePagination": true,
+  "serverSidePagination": false,
   "templateHeight": 160,
-  "topRow": 7,
-  "totalRecordsCount": "10",
+  "topRow": 6,
+  "totalRecordsCount": "{{logReports.data.length }}",
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "pcocnhr7sm",
