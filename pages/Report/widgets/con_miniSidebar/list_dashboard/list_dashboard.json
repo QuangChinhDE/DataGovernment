@@ -9,12 +9,12 @@
   "animateLoading": true,
   "backgroundColor": "#ffffff",
   "borderRadius": "0.375rem",
-  "bottomRow": 81,
+  "bottomRow": 85,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 750,
+      "bottomRow": 790,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -118,7 +118,7 @@
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "selectedItemView": "{{{}}}",
   "serverSidePagination": false,
   "templateHeight": 160,

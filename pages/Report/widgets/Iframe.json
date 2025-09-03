@@ -3,7 +3,7 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 90,
+  "bottomRow": 94,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "dynamicBindingPathList": [
     {
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "j8ma73senw",
-  "leftColumn": 12,
+  "leftColumn": 10,
   "mobileBottomRow": 39,
   "mobileLeftColumn": 26,
   "mobileRightColumn": 41,
