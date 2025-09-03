@@ -7,7 +7,11 @@
   "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "control",
   "isDefaultClickDisabled": true,
@@ -22,6 +26,7 @@
   "mobileRightColumn": 42,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Overview', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.5,
   "parentId": "fr6f49r03o",
   "parentRowSpace": 10,

@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "diagram-tree",
   "isDefaultClickDisabled": true,
@@ -26,6 +30,7 @@
   "mobileRightColumn": 42,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Pipeline', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.5,
   "parentId": "fr6f49r03o",
   "parentRowSpace": 10,
