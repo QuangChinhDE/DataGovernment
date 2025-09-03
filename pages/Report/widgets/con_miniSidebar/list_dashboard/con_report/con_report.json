@@ -1,5 +1,5 @@
 {
-  "animateLoading": true,
+  "animateLoading": false,
   "backgroundColor": "#f4f4f5",
   "borderColor": "#d4d4d8",
   "borderRadius": "0.375rem",

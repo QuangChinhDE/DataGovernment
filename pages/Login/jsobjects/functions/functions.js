@@ -27,7 +27,7 @@ export default {
           last_name: user.last_name
         });
         showAlert("Login success", "success");
-        navigateTo("Pipeline");
+        navigateTo("Overview");
       } else {
         showAlert("Invalid email/password", "error");
       }
@@ -92,7 +92,7 @@ export default {
       });
 
       showAlert("Register success", "success");
-      navigateTo("Pipeline");
+      navigateTo("Overview");
     } catch (e) {
       showAlert(String(e?.message || "Error creating new user"), "error");
       console.log("register error:", e);
@@ -102,7 +102,7 @@ export default {
   async signOut() {
     await removeValue("currentUser");
     showAlert("Signed out", "info");
-    // navigateTo("Login");
+    navigateTo("Login");
   }
 
 };
