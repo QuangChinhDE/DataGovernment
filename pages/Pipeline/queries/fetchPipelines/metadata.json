@@ -72,7 +72,7 @@
     "dynamicBindingPathList": [],
     "name": "fetchPipelines",
     "pageId": "Pipeline",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

@@ -3,7 +3,7 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 94,
+  "bottomRow": 87,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "dynamicBindingPathList": [
     {
@@ -35,7 +35,7 @@
   "rightColumn": 64,
   "source": "{{list_dashboard.selectedItem.embed_url}}",
   "srcDoc": "",
-  "topRow": 7,
+  "topRow": 0,
   "type": "IFRAME_WIDGET",
   "version": 1,
   "widgetId": "aezwrxd0ql",

@@ -30,16 +30,8 @@
   "icon": "bag",
   "pages": [
     {
-      "id": "Login",
-      "isDefault": true
-    },
-    {
-      "id": "Overview",
-      "isDefault": false
-    },
-    {
       "id": "Pipeline",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Report",
